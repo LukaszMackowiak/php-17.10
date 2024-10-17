@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form>
+        <label for="imie">Imię:
+            <input type="text" name="imie" id="imie" />
+        </label>
+        <p></p>
+        <label for="wiek">Wiek:
+            <input type="number" name="wiek" id="wiek" />
+        </label>
+        <p>Płeć:</p>
+        <label for="mezczyzna">
+            <input type="radio" name="plec" id="mezczyzna" />
+            Mężczyzna</label>
+        <br>
+        <label for="kobieta">
+            <input type="radio" name="plec" id="kobieta" />
+            Kobieta</label>
+        <p>Ulubiony kolor:</p>
+        <label for="kolor">
+            <select id="kolor">
+                <option value="czerwony" selected>Czerwony</option>
+                <option value="zielony">Zielony</option>
+                <option value="niebieski">Niebieski</option>
+            </select>
+        </label>
+        <p>Ulubiona seria gier:</p>
+        <label for="gta">
+            <input type="checkbox" name="gra1" value="gta" />
+            GTA</label>
+        <br>
+        <label for="fifa">
+            <input type="checkbox" name="gra2" value="fifa" />
+            FIFA</label>
+        <br>
+        <label for="battlefield">
+            <input type="checkbox" name="gra3" value="battlefield" />
+            Battlefield</label>
+
+        <p></p>
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
